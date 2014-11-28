@@ -13,4 +13,4 @@ This repository contains the source code for a node-webkit package. Node-webkit 
 I will post more information on how to contribute later.
 
 ### IRC
-Join us on IRC by connecting to Freenode and joining <code>#zone-sonos</code> 
+Join us on IRC by connecting to <code>Freenode</code> and joining <code>#zone-sonos</code> 
