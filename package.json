@@ -5,11 +5,10 @@
         "toolbar": false,
         "width": 1000,
         "height": 600,
-        "resizable": false,
+        "resizable":false,
         "frame": false,
         "title": "Zone",
         "position": "center",
         "transparent": true
-
     }
 }
