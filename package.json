@@ -1,0 +1,15 @@
+{
+    "name": "Zone",
+    "main": "index.html",
+    "window": {
+        "toolbar": false,
+        "width": 1000,
+        "height": 600,
+        "resizable": false,
+        "frame": false,
+        "title": "Zone",
+        "position": "center",
+        "transparent": true
+
+    }
+}
