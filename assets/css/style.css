@@ -8,6 +8,7 @@ body {
     font-weight:300;
     color:#444;
     -webkit-app-region: drag;
+    -webkit-user-select: none;
 }
 
 #main {
