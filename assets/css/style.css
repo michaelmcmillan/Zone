@@ -192,6 +192,10 @@ section.sidebar > .list {
     font-size:12px; 
 }
 
+li.item > i {
+    min-width:20px;    
+}
+
 section.sidebar > .list > h3 {
     border-bottom:1px solid #D1CFD8;
     color: #434446;
