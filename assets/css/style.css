@@ -218,8 +218,9 @@ section.sidebar.right {
 /* Grid */
 section#grid {
     display:inline-block;
-    width:59%;
+    width:59.5%;
     height:100%;
+    text-align:center;
 }
 
 /* Elements */
@@ -227,9 +228,10 @@ div.element {
     display:inline-block;
     width:20%;
     height:150px;
-    margin-left:3.5%;
-    margin-top:3.5%;
     line-height:1.5;
+    margin-top:35px;
+    margin-right:10px;
+    margin-left:10px;
 }
 
 div.element > img.cover {
