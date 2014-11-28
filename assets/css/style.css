@@ -7,7 +7,6 @@ body {
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight:300;
     color:#444;
-    -webkit-app-region: drag;
     -webkit-user-select: none;
 }
 
@@ -29,6 +28,7 @@ body {
 
 section#menu {
     margin:20px;
+    -webkit-app-region: drag;
 }
 
 section#menu {
