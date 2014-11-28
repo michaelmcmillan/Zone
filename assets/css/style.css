@@ -82,7 +82,8 @@ section#playing {
 section#playing > div#album {
     width:100%;
     height:100%;
-    background-image: url("../img/bg.png");
+    background-image: url("../img/bruno.jpg");
+    background-position: center; 
 }
 
 section#playing > div#album > div#controls {
