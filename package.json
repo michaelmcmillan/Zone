@@ -10,5 +10,9 @@
         "title": "Zone",
         "position": "center",
         "transparent": true
+    },
+
+    "dependencies": {
+        "sonos-http-api": "jishi/node-sonos-http-api.git"
     }
 }
