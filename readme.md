@@ -1,5 +1,5 @@
 # Zone
-An open source alternative Sonos player.
+An open source alternative to the Sonos controller.
 
 ![Screenshot](assets/screens/screenshot.png)
 
