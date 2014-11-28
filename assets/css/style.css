@@ -234,15 +234,19 @@ div.element {
     margin-left:10px;
 }
 
-div.element > img.cover {
+div.meta > img.cover {
     max-width:120px;
 }
 
-div.element > h4.artist {
+div.meta {
+    text-align:left;
+}
+
+div.meta > h4.artist {
     margin-top:5px;
     font-size:12px;
 }
 
-div.element > p.album {
+div.meta > p.album {
     font-size:12px;
 }
