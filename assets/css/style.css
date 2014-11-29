@@ -52,13 +52,30 @@ section#menu > span#title {
 }
 
 section#menu > span#playlist {
-    border-right:1px #DADBE0 solid;
-    width:60%;
+    width:40%;
     font-weight:bold;
     font-size:12px;
     text-transform: uppercase;
 }
 
+section#menu > span#arrange {
+    border-right:1px #DADBE0 solid;
+    width:20%;
+    color:#A2A2A2;
+    font-weight:bold;
+    font-style:italic;
+    font-size:14px;
+    text-align:right;
+}
+
+
+section#menu > span#arrange > i {
+    margin-right:10px;
+}
+
+span#arrange > i:last-child {
+    margin-right:20px !important;
+}
 section#menu > span#search {
     width:20%;
     color:#A2A2A2;
