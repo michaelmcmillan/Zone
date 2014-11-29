@@ -2,3 +2,5 @@ nw/
 ideas/
 *.swp
 node_modules/
+builds
+cache

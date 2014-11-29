@@ -32,6 +32,13 @@ module.exports = function(grunt) {
           'assets/css/style.min.css': ['assets/css/*.css', '!assets/css/style.min.css']
         }
       }
+    },
+    nodewebkit: {
+      options: {
+        platforms: ['osx'],
+        buildDir: './builds',
+      },
+      src: ['./*']
     }
   });
 
@@ -40,9 +47,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-clean');
-
+  grunt.loadNpmTasks('grunt-node-webkit-builder');
 
   grunt.registerTask('test', ['jshint']);
   grunt.registerTask('default', ['jshint']);
   grunt.registerTask('serve', ['connect:server', 'cssmin', 'watch']);
+  grunt.registerTask('build', ['cssmin', 'nodewebkit']);
 };
