@@ -21,7 +21,7 @@ body {
     height: 100vh;
     overflow: auto;
     border-radius: 0.5em;
-    background:#fff; 
+    background:#fff;
 }
 
 /* Menu */
@@ -101,11 +101,37 @@ section#playing > div#album {
     height:100%;
     background-image: url("../img/bruno.jpg");
     background-position: center;
+    position:absolute;
+    bottom:0;
+    left:0;
+    -webkit-filter: blur(10px);
+    transform: scale(1.1);
 }
 
-section#playing > div#album > div#controls {
+
+
+section#playing > div#info {
+    width:200px;
+    margin-left: 20%;
+    padding-top: 30px;
     position:absolute;
-    bottom:0; 
+}
+
+section#playing > div#info > h1 {
+    color:white;
+    font-size:28px;
+    font-weight:200;
+}
+
+section#playing > div#info > h3 {
+    color:white;
+    font-size:12px;
+    font-weight:400;
+}
+
+section#playing > div#controls {
+    position:absolute;
+    bottom:0;
     width:100%;
     height:33%;
     background-color:rgba(255,255,255,.4);
@@ -140,7 +166,7 @@ div#progress {
     width:59%;
     height:100%;
     overflow:hidden;
-} 
+}
 
 progress, progress::-webkit-progress-bar {
     -webkit-appearance: none;
@@ -192,7 +218,7 @@ section.sidebar {
 }
 
 section.sidebar.left {
-    border-right: solid #CED1D6 1px; 
+    border-right: solid #CED1D6 1px;
     float:left;
 }
 
@@ -207,11 +233,11 @@ section.sidebar > .list {
 
 .list > ul.items > li {
     margin: 1em 0;
-    font-size:12px; 
+    font-size:12px;
 }
 
 li.item > i {
-    min-width:20px;    
+    min-width:20px;
 }
 
 section.sidebar > .list > h3 {
@@ -233,7 +259,7 @@ ul.items > li {
 }
 
 section.sidebar.right {
-    border-left: solid #CED1D6 1px; 
+    border-left: solid #CED1D6 1px;
     float:right;
 }
 
@@ -282,4 +308,3 @@ section.sidebar.right > #devices > .device {
 section.sidebar.right > #devices > .device > img {
     max-width:150px;
 }
-
