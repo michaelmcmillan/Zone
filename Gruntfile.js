@@ -38,7 +38,7 @@ module.exports = function(grunt) {
         platforms: ['osx'],
         buildDir: './builds',
       },
-      src: ['./*']
+      src: ['package.json', 'index.html', './assets/*', './assets/**', '!node_modules/']
     }
   });
 
