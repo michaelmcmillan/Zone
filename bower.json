@@ -1,0 +1,24 @@
+{
+  "name": "Zone",
+  "version": "0.0.1",
+  "homepage": "https://github.com/michaelmcmillan/Zone",
+  "authors": [
+    "Michael McMillan <email@michaelmcmillan.net>"
+  ],
+  "description": "An open source alternative to the Sonos Controller.",
+  "keywords": [
+    "sonos"
+  ],
+  "dependencies": {
+    "backbone": null,
+    "jquery": null
+},
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
