@@ -83,7 +83,7 @@ section#playing > div#album {
     width:100%;
     height:100%;
     background-image: url("../img/bruno.jpg");
-    background-position: center; 
+    background-position: center;
 }
 
 section#playing > div#album > div#controls {
@@ -255,3 +255,14 @@ div.meta > h4.artist {
 div.meta > p.album {
     font-size:12px;
 }
+
+/* Sidebar right */
+section.sidebar.right > #devices > .device {
+    margin-top:25px;
+    text-align:center;
+}
+
+section.sidebar.right > #devices > .device > img {
+    max-width:150px;
+}
+
