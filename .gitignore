@@ -3,4 +3,5 @@ ideas/
 *.swp
 node_modules/
 builds
+build.sh
 cache
