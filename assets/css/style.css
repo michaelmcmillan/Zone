@@ -53,7 +53,7 @@ section#menu > span#title {
 
 section#menu > span#playlist {
     width:40%;
-    font-weight:bold;
+    font-weight:500;
     font-size:12px;
     text-transform: uppercase;
 }
@@ -79,7 +79,7 @@ span#arrange > i:last-child {
 section#menu > span#search {
     width:20%;
     color:#A2A2A2;
-    font-weight:bold;
+    font-weight:200;
     font-style:italic;
     font-size:14px;
 }
