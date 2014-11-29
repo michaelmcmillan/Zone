@@ -35,7 +35,7 @@ module.exports = function(grunt) {
     },
     nodewebkit: {
       options: {
-        platforms: ['osx'],
+        platforms: ['osx', 'win'],
         buildDir: './builds',
       },
       src: ['package.json', 'index.html', './assets/*', './assets/**', '!node_modules/']
