@@ -14,8 +14,8 @@ module.exports = function(grunt) {
       }
     },
     watch: {
-      files: ['<%= jshint.files %>', 'index.html'],
-      tasks: ['jshint']
+      files: ['assets/**/*', '<%= jshint.files %>', 'index.html'],
+      tasks: ['cssmin', 'jshint']
     },
     connect: {
       server: {
@@ -49,8 +49,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-node-webkit-builder');
 
-  grunt.registerTask('test', ['jshint']);
-  grunt.registerTask('default', ['jshint']);
-  grunt.registerTask('serve', ['connect:server', 'cssmin', 'watch']);
+  grunt.registerTask('serve', ['connect:server', 'watch', 'cssmin']);
   grunt.registerTask('build', ['cssmin', 'nodewebkit']);
 };
