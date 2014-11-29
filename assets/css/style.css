@@ -99,16 +99,16 @@ section#playing {
 section#playing > div#album {
     width:100%;
     height:100%;
-    background-image: url("../img/bruno.jpg");
+    background-image: url("../img/paolo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
     background-position: center;
     position:absolute;
     bottom:0;
     left:0;
-    -webkit-filter: blur(10px);
+    -webkit-filter: blur(6px);
     transform: scale(1.1);
 }
-
-
 
 section#playing > div#info {
     width:200px;
@@ -126,7 +126,7 @@ section#playing > div#info > h1 {
 section#playing > div#info > h3 {
     color:white;
     font-size:12px;
-    font-weight:400;
+    font-weight:900;
 }
 
 section#playing > div#controls {
