@@ -13,8 +13,8 @@ describe('Speaker', function () {
 
         it('can not go under 0', function () {
             var speaker = new Speaker(); 
-            speaker.volume = 101
-            assert.equal(speaker.volume, 100);
+            speaker.volume = -1 
+            assert.equal(speaker.volume, 0);
         });
 
     });
