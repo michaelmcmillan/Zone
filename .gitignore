@@ -1,8 +1,4 @@
-nw/
-ideas/
 *.swp
-node_modules/
-bower_components/
-builds
-build.sh
-cache
+src/node_modules
+bin/osx/*
+bin/win/*

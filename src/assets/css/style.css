@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/avenir_roman.otf"); }
+
+@font-face {
+  font-family: "Avenir";
+  font-weight: bold;
+  src: url("../fonts/avenir_heavy.otf"); }
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/avenir_roman.ttf"); }
+
+@font-face {
+  font-family: "Avenir";
+  font-weight: bold;
+  src: url("../fonts/avenir_heavy.ttf"); }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    font-family: "Avenir", "helvetica neue", helvetica, arial;
+}
+
+html, body, #container {
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+.mood {
+    padding-left: 50px;
+    height: 33.333%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#cafe.mood {
+    background-image: url('../images/cafe.jpg');
+}
+
+#rain.mood {
+    background-image: url('../images/rain.jpg');
+}
+
+#fireplace.mood {
+    background-image: url('../images/fireplace.jpg');
+}
+
+.mood > .title {
+    display: inline-block;
+    margin-top:20px;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 4px 1px;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.speakers {
+    margin-top: 20px;
+    height: 65px;
+    width: 100%;
+}
+
+.speaker {
+    position:relative;
+    display:inline-block;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100%;
+    width:115px;
+}
+
+.foreground {
+    height:100%;
+    width:100%;
+    background-size:cover;
+    position:absolute;
+    bottom:0;
+    overflow:hidden;
+}
+
+.play-five.background {
+    background-image: url('../images/speakers/play-five-background.png');
+}
+
+.play-five.foreground {
+    background-image: url('../images/speakers/play-five-foreground.png');
+} 
+
+.play-three.background {
+    background-image: url('../images/speakers/play-three-background.png');
+}
+
+.play-three.foreground {
+    background-image: url('../images/speakers/play-three-foreground.png');
+} 
+
+.play-one.background {
+    background-image: url('../images/speakers/play-one-background.png');
+}
+
+.play-one.foreground {
+    background-image: url('../images/speakers/play-one-foreground.png');
+} 
