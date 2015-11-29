@@ -36,12 +36,12 @@ build-win32-x64:
 	@$(PACKAGER) $(SRC_DIR) $(APP_TITLE) --asar --platform=win32 --arch=x64 \
 		--version=$(ELECTRON_VERSION) --out $(BUILD_WIN_DIR) --ignore=$(REDUNDANT)
 
-test: unit-test lint
-
 unit-test:
 	@$(MOCHA) $(TEST_DIR)
 
 lint:
 	@$(ESLINT) $(SRC_DIR) --ignore-path $(GITIGNORE)
+
+test: unit-test lint
 
 .PHONY: install test
