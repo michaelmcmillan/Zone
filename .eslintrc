@@ -9,9 +9,5 @@
     "prefer-spread": 2,
     "constructor-super": 2,
     "arrow-spacing": [2, { "before": true, "after": true }],
-  },
-  "env": {
-    "mocha": true,
-    "node": true
   }
 }
